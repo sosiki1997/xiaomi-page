@@ -1,0 +1,184 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 100%;
+  height: auto;
+}
+
+ul li,
+ol li {
+  list-style: none;
+}
+
+img {
+  border: none;
+  vertical-align: middle;
+}
+input {
+  border: none;
+  outline: none;
+}
+textarea {
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+.f_l {
+  float: left;
+}
+.f_r {
+  float: right;
+}
+.w {
+  width: 1226px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+
+.onenav {
+  height: 120px;
+  margin-top: 20px;
+}
+.onenav img {
+  width: 100%;
+  height: 120px;
+}
+
+h2 {
+  line-height: 58px;
+  font-weight: lighter;
+  color: #5f5750;
+}
+
+.brick_item img {
+  width: 160px;
+  height: 160px;
+  margin: 20px 36px 0;
+}
+.home_nav img {
+  width: 234px;
+  height: 300px;
+}
+.brick_item {
+  margin-left: 14px;
+  margin-bottom: 14px;
+  transition: 0.5s;
+}
+.items {
+  width: 992px;
+  height: 614px;
+  padding-left: -14px;
+}
+.home,
+.home_son {
+  height: 672px;
+}
+
+.brick_item a {
+  display: block;
+  width: 234px;
+  height: 300px;
+  background-color: #fff;
+}
+.brick_item h4 {
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  color: #000;
+  margin-top: 18px;
+  font-weight: normal;
+}
+.brick_item p {
+  font-size: 12px;
+  text-align: center;
+  color: #adadad;
+  line-height: 32px;
+}
+.brick_item span {
+  color: #fa7d09;
+  font-size: 14px;
+}
+.brick_item .prime_cost {
+  color: #adadad;
+  text-decoration: line-through;
+  margin-left: 2px;
+}
+.home_nav .bottom {
+  margin-top: 15px;
+  transition: 0.5s;
+}
+.home_nav .top {
+  transition: 0.5s;
+}
+.tail {
+  width: 234px;
+  height: 93px;
+  background-color: white;
+  margin: 0 0 15px 14px;
+  padding-top: 50px;
+  position: relative;
+  transition: 0.5s;
+}
+.tail img {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  right: 24px;
+  top: 25%;
+}
+.tail h4 {
+  width: 94px;
+  height: 42px;
+  margin: -5px 110px 5px 30px;
+  font-size: 14px;
+  font-weight: normal;
+}
+.tail span {
+  margin: 0px 110px 0px 30px;
+  font-size: 12px;
+  color: #ff6700;
+}
+.tail_bottom {
+  width: 234px;
+  height: 93px;
+  margin-left: 14px;
+  background-color: white;
+  padding-top: 50px;
+  position: relative;
+  transition: 0.5s;
+}
+.tail_bottom span {
+  width: 48px;
+  height: 48px;
+  font-size: 38px;
+  color: orangered;
+  position: absolute;
+  right: 30px;
+  top: 35%;
+}
+.tail_bottom h3 {
+  width: 94px;
+  margin: 0 110px 0 30px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #333;
+}
+.tail_bottom small {
+  margin: 0px 110px 0px 30px;
+  color: #757575;
+}
+
+.tail_bottom:hover,
+.brick_item:hover,
+.handset_nav:hover,
+.home_nav div:hover,
+.tail:hover,
+.video li:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 15px 10px 8px rgb(230, 230, 230);
+}
